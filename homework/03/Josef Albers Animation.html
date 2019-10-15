@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+	html,body{
+		height:100%;
+	}
+
+	body{
+		
+       border: 40px solid black;
+       border-top: 40px solid black;  
+       background-color: black;   
+
+	}
+
+	div{
+		height:50%;
+		background-color:grey;
+	}
+
+	.first{
+		background-color: #50A6C2;
+		 animation: slide1 4s infinite ease-out;
+		 width:75%;
+		height:27%;
+}
+
+	.second{
+		background-color: #53B9C8;
+		animation: slide2 8s infinite ease-out;
+		width:75%;
+		height:17%;
+		
+	}
+
+	.third{
+		background-color:#FFE303;
+		animation: slide3 4s infinite ease-out;
+		width:75%;
+			height:17%
+
+          
+	}
+
+	.fourth{
+		background-color: #FF8C00;
+		animation: slide4 8s infinite ease-out;
+		 width:75%;
+		height:27%
+		
+	}
+
+	
+	
+	@keyframes slide1 {
+		
+		50%{ 
+			transform:initial;
+         	background-color:#FFC75F;
+         }
+
+		75% {
+			transform: translate(50vw, 0);
+			background-color: #FF9671;
+		}
+
+		100%{
+			transform: initial;
+			background-color: #FF6F91
+		}
+	}
+	@keyframes slide2 {
+		
+		0%{
+         
+         }
+		25% {
+			transform: translate(50vw, 0);
+
+		}
+
+		50%{
+			transform: initial;
+		}
+	}
+
+	
+
+		@keyframes slide3 {
+		
+		50%{
+			transform:initial;
+			background-color: #C4FCEF;
+
+         
+         }
+		75% {
+			transform: translate(50vw, 0);
+			background-color:#00C9A7;
+		}
+
+		100%{
+			transform: initial;
+			background-color: #845EC2;
+		}
+	}
+
+		@keyframes slide4 {
+		
+		0%{
+         
+         }
+		25% {
+			transform: translate(50vw, 0);
+
+		}
+
+		50%{
+			transform: initial;
+		}
+	}
+
+		@keyframes slide5 {
+		
+		0%{
+         
+         }
+		25% {
+			transform: translate(0, 100vh);
+
+		}
+
+		50%{
+			transform: initial;
+		}
+	}
+
+	@keyframes color1 {
+		0%{ background-color:#F68662
+
+		}
+		50%{ background-color: #EE92BC
+
+		}
+		100%{ background-color: #AADCAF
+
+		}
+
+	}
+
+
+
+	
+
+</style>
+</head>
+<body>
+
+<div class="first"> </div>
+<div class="second"></div>
+<div class="third"></div>
+<div class="fourth"></div>
+
+
+</body>
+</html>

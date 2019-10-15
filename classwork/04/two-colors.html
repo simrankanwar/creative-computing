@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+	html,body{
+		height:100%;
+	}
+
+	body{
+		background-color:#4AAF17;
+		margin:0;
+       border: 50px solid white;
+
+	}
+
+	div{
+		height:50%;
+		background-color:grey;
+	}
+
+	.first{
+		background-color: #F6F65E;
+		 animation: slide1 4s infinite ease-out;
+
+	}
+
+	.second{
+		background-color: #C6BA43;
+		animation: slide2 4s infinite ease-out;
+	}
+	
+	@keyframes slide1 {
+		
+		50%{ 
+			transform:initial;
+         
+         }
+		75% {
+			transform: translate(50vw, 0);
+
+		}
+
+		100%{
+			transform: initial;
+		}
+	}
+	@keyframes slide2 {
+		
+		0%{
+         
+         }
+		25% {
+			transform: translate(50vw, 0);
+
+		}
+
+		50%{
+			transform: initial;
+		}
+
+	
+
+</style>
+</head>
+<body>
+
+<div class="first"> </div>
+<div class="second"></div>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<style>
+	html,body{
+		height:100%;
+	}
+	
+	body{
+		
+		margin:0;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+      }
+
+	.green{
+		width:50vmin;
+		height:50vmin;
+		background-color: #172;
+
+		animation: slide 2s infinite alternate;
+
+	}
+		
+	.wrapper{
+		animation: spin 3s infinite linear;
+
+	}
+
+	
+	
+	@keyframes spin {
+		
+		to {
+			transform: rotate(360deg);
+
+		}
+	}
+
+	@keyframes slide{
+		to{
+			transform:translate(400px,0px);
+		}
+	}
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+<div class="green"> </div>
+	
+</div>
+</body>
+</html>
