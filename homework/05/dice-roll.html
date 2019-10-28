@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	html,body {
+		height: 100%;
+	}
+
+	body{
+
+		margin: 0;
+		float: left;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+
+	}
+
+	img{
+
+		height:40vmin;
+	}
+</style>
+</head>
+<body>
+
+<img id="roll1" src="images/1.svg">
+<img id="roll2" src="images/1.svg">
+
+<script>
+
+var roll1 = Math.floor(Math.random() * 6 ) +1;
+
+if (roll1 == 1) document.getElementById("roll1").src = "images/1.svg";
+if (roll1 == 2) document.getElementById("roll1").src = "images/2.svg";
+if (roll1 == 3) document.getElementById("roll1").src = "images/3.svg";
+if (roll1 == 4) document.getElementById("roll1").src = "images/4.svg";
+if (roll1 == 5) document.getElementById("roll1").src = "images/5.svg";
+if (roll1 == 6) document.getElementById("roll1").src = "images/6.svg";
+
+
+var roll2 = Math.floor(Math.random() * 6 ) +1;
+
+
+if (roll2 == 1) document.getElementById("roll2").src = "images/1.svg";
+if (roll2 == 2) document.getElementById("roll2").src = "images/2.svg";
+if (roll2 == 3) document.getElementById("roll2").src = "images/3.svg";
+if (roll2 == 4) document.getElementById("roll2").src = "images/4.svg";
+if (roll2 == 5) document.getElementById("roll2").src = "images/5.svg";
+if (roll2 == 6) document.getElementById("roll2").src = "images/6.svg";
+
+
+</script>
+</body>
+</html>
