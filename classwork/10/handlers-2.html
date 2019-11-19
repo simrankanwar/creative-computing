@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script>
+		// handlers are a way of running code later 
+
+
+        // keyboard
+		document.onkeydown = function(event) {console.log("on key down" ,event.key);}
+		document.onkeyup = function(event) {console.log("on key up" ,event.key);}
+		// document.onkeypress // same as onkeydown but skips CTRL, ESC
+
+		//mouse
+		document.onmousedown = function(event) { console.log("on mouse down" ,event);}
+		document.onmouseup = function(event) { console.log("on mouse up" ,event);}
+		document.onmousemove = function(event) { console.log("on mouse move" , event.x, event.y);}
+
+		//animation
+        // set interval takes 2 arguments. function, then delay in milliseconds
+		//exampleFunction("hello",200);
+		//setInterval( function(){}, 200);
+		//setInterval( function(event){
+			//console.log("animation", event);
+		//}, 200);
+
+
+
+
+	</script>
+
+</body>
+</html>
